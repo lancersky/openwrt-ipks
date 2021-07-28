@@ -1,0 +1,203 @@
+Package: boost
+Version: 1.67.0-2
+Depends: libc, libstdcpp, libpthread, librt
+Source: feeds/packages/libs/boost
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 104
+Filename: boost_1.67.0-2_mips_24kc.ipk
+Size: 1457
+SHA256sum: 236716353458a009c122dc70329a2d7cf49a29bb48bb5ad14fec0d3601f94b1f
+Description:  This package provides the Boost v1.67.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ -----------------------------------------------------------------------------
+ |                                Warning                                    |
+ | In order to build all of the Boost Libraries, it is necessary             |
+ | to use, at least, GCC version 5 (C++14 support) and, it is necessary to   |
+ | compile the kernel with Full Language Support.                            |
+ | Without these requirerements, the following libs will not be available:   |
+ | - Boost.Locale                                                            |
+ | - Boost.Coroutine2 (header-only library - requires C++11)                 |
+ | - Boost.Fiber (requires C++14)                                            |
+ -----------------------------------------------------------------------------
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract (new in 1.67.0)
+ - coroutine (Deprecated - use Coroutine2)
+ - - coroutine2 (Requires GCC v5 and up)
+ - date_time
+ - exception
+ - filesystem
+ - fiber (Requires GCC v5 and up)
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - signals
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_67_0/
+
+Package: boost-date_time
+Version: 1.67.0-2
+Depends: libc, libstdcpp, libpthread, librt
+Source: feeds/packages/libs/boost
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 14656
+Filename: boost-date_time_1.67.0-2_mips_24kc.ipk
+Size: 15329
+SHA256sum: 0f47bcb60c74457715dbec71a0c3c16283bac6942cc7bfffb4f252a93bdc924b
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.67.0-2
+Depends: libc, libstdcpp, libpthread, librt
+Source: feeds/packages/libs/boost
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 102017
+Filename: boost-program_options_1.67.0-2_mips_24kc.ipk
+Size: 102650
+SHA256sum: 27b694045c2dfc75a82cf32e7a577162e0470e63a1b857780717bcf4e5e784fd
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.67.0-2
+Depends: libc, libstdcpp, libpthread, librt
+Source: feeds/packages/libs/boost
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 5041
+Filename: boost-system_1.67.0-2_mips_24kc.ipk
+Size: 5825
+SHA256sum: 0c4e0a73a8e8e07a9b027e29ede12d487cc807275acfa026108abe48ecc62c7c
+Description:  This package contains the Boost system library.
+
+Package: luci-app-ssr-plus
+Version: 1-142
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget, lua, shadowsocks-libev-ss-redir, srelay
+Source: package/lean/luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 101551
+Filename: luci-app-ssr-plus_1-142_all.ipk
+Size: 101693
+SHA256sum: 0308c06ec5817ac263580eb9ce8bc38008377c972c6d6c9a560b5a41f7ece455
+Description:  SS/SSR/V2Ray/Trojan LuCI interface
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d
+Depends: libc, libpthread
+Source: package/lean/pdnsd-alt
+Section: net
+Architecture: mips_24kc
+Installed-Size: 78679
+Filename: pdnsd-alt_1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d_mips_24kc.ipk
+Size: 79504
+SHA256sum: e5d5787af4a8a6b7d60acf3592a43321b238d49f21a5fa33a53def936f06f10b
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: shadowsocks-libev-config
+Version: 3.3.4-1
+Depends: libc
+Source: package/shadowsocks-libev
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 2640
+Filename: shadowsocks-libev-config_3.3.4-1_mips_24kc.ipk
+Size: 3374
+SHA256sum: 7bfd9a23d0be66420a2d94b3d51cfb1c15ec19358bb5243f2ab03ead0694f2d2
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.4-1
+Depends: libc, libev, libmbedtls, libpthread, libsodium, shadowsocks-libev-config
+Source: package/shadowsocks-libev
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 40256
+Filename: shadowsocks-libev-ss-redir_3.3.4-1_mips_24kc.ipk
+Size: 40643
+SHA256sum: 280853653746c4fd40d5e869b2cc93e0a6e473bbde39686e627784946ba9fc53
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocksr-libev-alt
+Version: 2.5.6-5
+Depends: libc, libopenssl, libpthread, libpcre, zlib
+Source: package/lean/shadowsocksr-libev
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Architecture: mips_24kc
+Installed-Size: 101535
+Filename: shadowsocksr-libev-alt_2.5.6-5_mips_24kc.ipk
+Size: 101563
+SHA256sum: ef510d79288dd892d33ffcf4b06b9a7cf8835d54cf9af77cc605b02e099278ab
+Description:  Lightweight Secured Socks5 Proxy
+
+Package: srelay
+Version: 0.4.8p3-8
+Depends: libc, libpthread
+Source: package/lean/srelay
+Section: net
+Architecture: mips_24kc
+Installed-Size: 19528
+Filename: srelay_0.4.8p3-8_mips_24kc.ipk
+Size: 20168
+SHA256sum: bfd40acc31ce3f005e248de8c0e7c98c015fde098f60d40f2b9d49bce2293120
+Description:  A socks 4/5 proxy server
+
+Package: trojan
+Version: 1.14.1-1
+Depends: libc, libpthread, libstdcpp, boost, boost-system, boost-program_options, boost-date_time
+Source: package/openwrt-trojan/trojan
+License: GPL-3.0
+Section: net
+Maintainer: GreaterFire
+Architecture: mips_24kc
+Installed-Size: 1174220
+Filename: trojan_1.14.1-1_mips_24kc.ipk
+Size: 1172704
+SHA256sum: ebba26637345764aa1cdc394925548b32fc91c750a06a5f7ee41b0a508719305
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
