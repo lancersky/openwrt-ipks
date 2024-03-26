@@ -159,3 +159,20 @@ Description:  The libffi library provides a portable, high level programming int
  A layer must exist above libffi that handles type conversions for values passed
  between the two languages.
 
+Package: lua-eco-websocket
+Version: 2024-3-20-e38098da-1
+Depends: libc, lua-eco, lua-eco-http, lua-eco-base64, lua-eco-sha1
+Source: feeds/gl_feeds_common/lua-eco
+SourceName: lua-eco-websocket
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1710907062
+Maintainer: Jianhui Zhao <zhaojh329@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 2715
+Filename: lua-eco-websocket_2024-3-20-e38098da-1_mips_24kc.ipk
+Size: 3512
+SHA256sum: 35008fa5352fe1844728ab76361ca0e085f1fc9db406c26b06bfdceef9b0bf63
+Description:  websocket support for lua-eco
+
