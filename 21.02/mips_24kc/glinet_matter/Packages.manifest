@@ -1,0 +1,161 @@
+Package: bluez-daemon
+Version: 5.64-1
+Depends: libc, bluez-libs, bluez-utils, bluez-utils-extra, glib2, libncurses6, libreadline8, dbus, libical
+Source: feeds/packages/utils/bluez
+SourceName: bluez-daemon
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1653074105
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: mips_24kc
+Installed-Size: 545073
+Filename: bluez-daemon_5.64-1_mips_24kc.ipk
+Size: 544106
+SHA256sum: 988c886a61a325be1187212854da9bb16867c5057dfa886c51a847a0dac510a0
+Description:  Bluetooth daemon
+
+Package: bluez-libs
+Version: 5.64-1
+Depends: libc, libpthread, kmod-bluetooth
+Source: feeds/packages/utils/bluez
+SourceName: bluez-libs
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1653074105
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: mips_24kc
+Installed-Size: 66689
+Filename: bluez-libs_5.64-1_mips_24kc.ipk
+Size: 66808
+SHA256sum: f2db5f4f85c9558bfefcc7b782d951f4d7d4e686f7fe0b551330583bf481b81d
+Description:  Bluetooth library
+
+Package: bluez-utils
+Version: 5.64-1
+Depends: libc, bluez-libs
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1653074105
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: mips_24kc
+Installed-Size: 529530
+Filename: bluez-utils_5.64-1_mips_24kc.ipk
+Size: 529680
+SHA256sum: a520f76751c1ce53725d3b13f13e5db7a59badd860fe2512825fe05535d6ea9c
+Description:  Bluetooth utilities
+
+Package: bluez-utils-extra
+Version: 5.64-1
+Depends: libc, bluez-libs, libpthread, librt, glib2, libncurses6, libreadline8, dbus
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils-extra
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1653074105
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: mips_24kc
+Installed-Size: 124864
+Filename: bluez-utils-extra_5.64-1_mips_24kc.ipk
+Size: 125554
+SHA256sum: a7bfeb99da98768c7b5fff600df9db45afe8800471510c518fe5814c78e705c5
+Description:  Bluetooth additional utilities
+
+Package: glib2
+Version: 2.66.4-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+SourceName: glib2
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1610067525
+CPE-ID: cpe:/a:gnome:glib
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mips_24kc
+Installed-Size: 943032
+Filename: glib2_2.66.4-1_mips_24kc.ipk
+Size: 934287
+SHA256sum: 3a8d47b715d153a4759eceeb4b5d3e8343cde1b41ed0510362a754d8016700cf
+Description:  The GLib library of C routines
+
+Package: gl-iot-dev-mgmt
+Version: git-2024.082.30032-df35511-1
+Depends: libc, rrdtool1, lua-cjson-lua5.3, lsqlite3-lua5.3-gl, lua-eco, lua-eco-log, lua-eco-ubus, lua-eco-websocket, libubus20210630, libubox20210516, libblobmsg-json20210516, mdnsd
+Source: feeds/glinet_iot/gl-iot-dev-mgmt
+SourceName: gl-iot-dev-mgmt
+Section: base
+SourceDateEpoch: 1711095632
+Architecture: mips_24kc
+Installed-Size: 86254
+Filename: gl-iot-dev-mgmt_git-2024.082.30032-df35511-1_mips_24kc.ipk
+Size: 86986
+SHA256sum: ca0137d828dd21734848251e32f2c7f77a821449e4961d7c21671ec166223ba9
+Description:  GL IoT Devices Management
+
+Package: gl-iot-matter-controller
+Version: 2023-10-28-181b0cb1-1
+Depends: libc, libstdcpp6, libopenssl1.1, glib2, libubus20210630, libubox20210516, libblobmsg-json20210516, openssl-util, libatomic1
+Source: feeds/glinet_iot/gl-iot-matter-controller
+SourceName: gl-iot-matter-controller
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1711350295
+Architecture: mips_24kc
+Installed-Size: 2736137
+Filename: gl-iot-matter-controller_2023-10-28-181b0cb1-1_mips_24kc.ipk
+Size: 2717161
+SHA256sum: f56265e07c7ddcd27c8e177c9738f80d4bf61b684cad69b426c604e2321145f6
+Description:  The CHIP Tool (chip-tool) is a Matter controller implementation that allows to commission a Matter device into the network 
+ and to communicate with it using Matter messages, which may encode Data Model actions, such as cluster commands.
+
+Package: libattr
+Version: 2.4.48-2
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 5766
+Filename: libattr_2.4.48-2_mips_24kc.ipk
+Size: 6560
+SHA256sum: 3298f436a4b39bb81789cb222071779c5eacdedd9175acd4ce13a86b2c2acd53
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libffi
+Version: 3.3-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mips_24kc
+Installed-Size: 13570
+Filename: libffi_3.3-2_mips_24kc.ipk
+Size: 14565
+SHA256sum: ae531ffaa40377c4cf58629732250b5be6e0cbea01b4a580a5524e945dede9f9
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
